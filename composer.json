@@ -1,0 +1,24 @@
+{
+    "name": "woodoocoder/laravel-helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Pavlyshyn",
+            "email": "pavlyshyn.roma@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Woodoocoder\\LaravelHelpers\\": "src"            
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Woodoocoder\\LaravelHelpers\\HelpersServiceProvider"
+            ]
+        }
+    }
+}
